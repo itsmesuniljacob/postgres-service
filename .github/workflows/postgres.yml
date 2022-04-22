@@ -1,5 +1,5 @@
 # .github/workflows/postgres.yml
-on: push
+on: pull_request
 jobs:
   # label of the container job
   postgres-job:
